@@ -1,0 +1,29 @@
+# Ignorar archivos de compilación
+bin/
+obj/
+.vs/
+
+# Ignorar archivos de configuración específicos de tu entorno
+appsettings.Development.json
+*.suo
+*.user
+*.sln.docstates
+
+# Ignorar archivos compilados de Visual Studio
+*.exe
+*.pdb
+*.dll
+
+# Ignorar archivos de caché y de registro
+[Tt]humbs.db
+*.log
+*.logs
+*.vscode
+
+# Ignorar archivos de compilación de ReSharper
+_ReSharper*/
+
+# Ignorar archivos de paquetes NuGet
+packages/
+*.nupkg
+*.paket/
